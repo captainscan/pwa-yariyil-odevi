@@ -62,3 +62,6 @@ Detay Sayfası: Her hayvanın geçmişini, travmalarını ve özgeçmişini içe
 Hakkımızda: Kurumsal vizyon ve teknik şartname tablosu.
 
 İletişim: Input validation destekli sahiplenme başvuru formu.
+<img width="1919" height="1079" alt="Ekran görüntüsü 2026-01-06 141730" src="https://github.com/user-attachments/assets/2e922ef8-b53b-46d1-bba1-bdfdf0aa34db" />
+<img width="1919" height="1079" alt="Ekran görüntüsü 2026-01-06 141730" src="https://github.com/user-attachments/assets/2e922ef8-b53b-46d1-bba1-bdfdf0aa34db" />
+
