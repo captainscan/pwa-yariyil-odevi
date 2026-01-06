@@ -64,5 +64,7 @@ Hakkımızda: Kurumsal vizyon ve teknik şartname tablosu.
 İletişim: Input validation destekli sahiplenme başvuru formu.
 <img width="1919" height="1079" alt="Ekran görüntüsü 2026-01-06 141730" src="https://github.com/user-attachments/assets/2e922ef8-b53b-46d1-bba1-bdfdf0aa34db" />
 <img width="1919" height="1079" alt="Ekran görüntüsü 2026-01-06 141920" src="https://github.com/user-attachments/assets/1fd94cbc-e6ce-4336-8af1-222e475c3cb6" />
-<img width="1919" height="1079" alt="Ekran görüntüsü 2026-01-06 141920" src="https://github.com/user-attachments/assets/1fd94cbc-e6ce-4336-8af1-222e475c3cb6" />
+<img width="1919" height="1079" alt="Ekran görüntüsü 2026-01-06 141749" src="https://github.com/user-attachments/assets/ce5e9942-7bde-4749-93ed-ec21f33d8a82" />
+
+
 
