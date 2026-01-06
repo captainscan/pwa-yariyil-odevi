@@ -1,0 +1,74 @@
+:root {
+    --brown-dark: #3E2723;
+    --brown-main: #5D4037;
+    --beige-bg: #F5F5DC;
+    --beige-light: #FFF8E1;
+    --accent-tan: #D7CCC8;
+}
+
+body {
+    background-color: var(--beige-bg);
+    color: #3E2723;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: var(--brown-dark) !important;
+    padding: 1rem 0;
+}
+
+.hero-section {
+    background: white;
+    padding: 60px 0;
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 25px;
+    transition: all 0.4s ease;
+    background: white;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(93, 64, 55, 0.2) !important;
+}
+
+.btn-pet {
+    background-color: var(--brown-main);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-pet:hover {
+    background-color: var(--brown-dark);
+    color: white;
+}
+
+.badge-status {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.form-control {
+    border-radius: 30px;
+    padding: 12px 25px;
+    border: 2px solid var(--accent-tan);
+}

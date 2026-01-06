@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>İletişim | PetTime</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark shadow sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">🐾 PetTime</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Ana Sayfa</a>
+                <a class="nav-link" href="about.html">Hakkımızda</a>
+                <a class="nav-link active" href="contact.html">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 bg-white p-5 rounded-5 shadow">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold" style="color: var(--brown-dark);">Sahiplenme Başvurusu</h2>
+                    <p class="text-muted">Dostumuzla ilgileniyor musunuz? Formu doldurun, barınak yetkililerimiz size
+                        ulaşsın.</p>
+                </div>
+
+                <form id="petContactForm">
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Adınız Soyadınız</label>
+                        <input type="text" class="form-control" id="userName" placeholder="Örn: Ahmet Yılmaz" required
+                            minlength="3">
+                        <div class="invalid-feedback">Lütfen en az 3 karakter giriniz.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">E-posta Adresiniz</label>
+                        <input type="email" class="form-control" id="userEmail" placeholder="isim@ornek.com" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label fw-bold">Dostumuzun Cinsi (Veya Kimliği)</label>
+                        <input type="text" class="form-control" id="subject"
+                            placeholder="Hangi dostumuzla ilgileniyorsunuz?" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Kısa Bir Mesaj</label>
+                        <textarea class="form-control" rows="4"
+                            placeholder="Neden sahiplenmek istiyorsunuz? Ev ortamınız uygun mu?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-pet w-100 py-3 shadow-sm text-uppercase fw-bold">Başvuruyu
+                        Gönder</button>
+                </form>
+
+                <div id="formResponse" class="mt-4" style="display: none;">
+                    <div class="alert alert-success d-flex align-items-center" role="alert">
+                        <div>
+                            <strong>Başarılı!</strong> Başvurunuz alındı. Yetkililerimiz 24-48 saat içinde size dönüş
+                            yapacaktır.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Basit Input Validation ve Başarı Mesajı
+        document.getElementById('petContactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // UI Odaklı Başarı Mesajı Gösterimi
+            this.style.display = 'none';
+            document.getElementById('formResponse').style.display = 'block';
+
+            // Console'a log atarak çalışmayı teyit edelim
+            console.log("Form verileri gönderildi: ", {
+                name: document.getElementById('userName').value,
+                email: document.getElementById('userEmail').value
+            });
+        });
+    </script>
+</body>
+
+</html>
