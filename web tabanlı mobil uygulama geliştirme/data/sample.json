@@ -1,0 +1,39 @@
+{
+    "breeds": [
+        {
+            "id": "husky",
+            "name": "husky",
+            "subbreeds": []
+        },
+        {
+            "id": "pug",
+            "name": "pug",
+            "subbreeds": []
+        },
+        {
+            "id": "retriever",
+            "name": "retriever",
+            "subbreeds": [
+                "golden",
+                "labrador"
+            ]
+        },
+        {
+            "id": "bulldog",
+            "name": "bulldog",
+            "subbreeds": [
+                "boston",
+                "english",
+                "french"
+            ]
+        },
+        {
+            "id": "hound",
+            "name": "hound",
+            "subbreeds": [
+                "afghan",
+                "basset"
+            ]
+        }
+    ]
+}
